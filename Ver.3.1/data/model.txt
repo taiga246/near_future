@@ -719,9 +719,58 @@ END_MODELSET
 #------------------------------------------------------------------------------
 # プレイヤー情報
 #------------------------------------------------------------------------------
+
+#------------------
+# エグゾフレーム
+#------------------
 PLAYERSET
-	MOTION_FILENAME = data/motion.txt
+	MOTION_FILENAME = data/player000motion.txt
+	POS = 500 0 50
+	ROT = 0 0 0
+END_PLAYERSET
+
+#------------------
+# エグゾフレーム
+#------------------
+PLAYERSET
+	MOTION_FILENAME = data/player001motion.txt
 	POS = 500 0 0
+	ROT = 0 0 0
+END_PLAYERSET
+
+#------------------
+# エグゾフレーム
+#------------------
+PLAYERSET
+	MOTION_FILENAME = data/player002motion.txt
+	POS = 500 0 -50
+	ROT = 0 0 0
+END_PLAYERSET
+
+#------------------
+# エグゾフレーム
+#------------------
+PLAYERSET
+	MOTION_FILENAME = data/player003motion.txt
+	POS = 500 0 -100
+	ROT = 0 0 0
+END_PLAYERSET
+
+#------------------
+# エグゾフレーム
+#------------------
+PLAYERSET
+	MOTION_FILENAME = data/player004motion.txt
+	POS = 500 0 -150
+	ROT = 0 0 0
+END_PLAYERSET
+
+#------------------
+# エグゾフレーム
+#------------------
+PLAYERSET
+	MOTION_FILENAME = data/player005motion.txt
+	POS = 500 0 -200
 	ROT = 0 0 0
 END_PLAYERSET
 
